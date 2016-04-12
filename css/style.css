@@ -1,0 +1,218 @@
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("http://25.media.tumblr.com/tumblr_m8deskzkQv1qf4nqeo1_500.gif");
+}
+
+#bar0 {
+  height: 65%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-left: 4px;
+  padding: 0px;
+  opacity: .9;
+}
+
+.bars {
+  height: 100%;
+  width: 14.30%;
+  display: inline-block;
+  margin-left: -4.20px;
+  position: relative;
+}
+
+#bar1 {
+  background-color: white;
+  opacity: 0.1;
+}
+
+#bar2 {
+  background-color: yellow;
+}
+
+#bar3 {
+  background-color: aqua;
+}
+
+#bar4 {
+  background-color: lime;
+}
+
+#bar5 {
+  background-color: fuchsia;
+}
+
+#bar6 {
+  background-color: red;
+}
+
+#bar7 {
+  background-color: blue;
+}
+
+#smalls {
+  height: 15%;
+  width: 100%;
+  position: absolute;
+}
+
+.small {
+  width: 14.29%;
+  height: 15%;
+  position: relative;
+  top: -4.20px;
+  display: inline-block;
+  margin-left: -4.20px;
+}
+
+#small1 {
+  background-color: blue;
+}
+
+#small2 {
+  background-color: black;
+}
+
+#small3 {
+  background-color: fuchsia;
+}
+
+#small4 {
+  background-color: black;
+}
+
+#small5 {
+  background-color: aqua;
+}
+
+#small6 {
+  background-color: black;
+}
+
+#small7 {
+  background-color: white;
+}
+
+.mono {
+  width: 14.30%;
+  height: 45%;
+  position: relative;
+  top: -8px;
+  display: inline-block;
+  margin-left: -4.20px;
+}
+
+#mono1 {
+  background-color: #111111;
+}
+
+#mono2 {
+  background-color: #222222;
+}
+
+#mono3 {
+  background-color: #333333;
+}
+
+#mono4 {
+  background-color: #444444;
+}
+
+#mono5 {
+  background-color: #555555;
+}
+
+#mono6 {
+  background-color: #666666;
+}
+
+#mono7 {
+  background-color: #777777;
+}
+
+.labels {
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  left: 100px;
+  background-color: black;
+  color: lime;
+  text-align: center;
+  height: 10%;
+  font-size: 15;
+}
+
+#channel {
+  width: 10%;
+  top: 10px;
+  left: 10px;
+}
+
+#signal {
+  top: 10px;
+  left: 250px;
+  width: 20%;
+}
+
+#tvsucks {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  display: none;
+  top: -50px;
+  color: white;
+}
+
+h1 {
+  width: 100%;
+  height: 100%;
+  position: static;
+  left: 0px;
+  font-size: 100px;
+  text-align: center;
+  opacity: .9;
+  top: 0px;
+  background-color: #800000;
+}
+
+#videos {
+  width: 100%;
+  height: 100%;
+  position: static;
+  margin: 0px;
+  top: -50px;
+}
+
+@media screen and (orientation:portrait) {
+  h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    background-color: #800000;
+    margin-top: 50px;
+  }
+  #videos {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    top: -50px;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    text-align: center;
+    background-color: #800000;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+  }
+}
